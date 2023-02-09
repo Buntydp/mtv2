@@ -1,10 +1,13 @@
 {
+  "homepage": "https://Buntydp.github.io/mtv2",
   "name": "@minimal/material-kit-react",
   "author": "minimals.cc",
   "licence": "MIT",
   "version": "1.3.0",
   "private": false,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -79,6 +82,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^5.0.0",
     "prettier": "^2.5.1"
   }
 }
