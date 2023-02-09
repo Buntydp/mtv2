@@ -52,7 +52,8 @@ export default function AppNewUsers() {
 
   async function test() {
     console.log('test');
-    await fetch('https://final-project-apis.herokuapp.com/jobs')
+    // await fetch('https://final-project-apis.herokuapp.com/jobs')
+    await fetch('https://flaskapi-eteq.onrender.com/jobs')
       .then((res) => res.json())
       .then((res) => {
         console.log('number', res);
